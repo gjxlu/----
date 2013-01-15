@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+#colinks {
+	display:block;
+	float:left;
+	padding:5px;
+	margin:30px 4%;
+	width:900px;
+	height:500px;
+	background-color:#97BCBD;	
+} 
+.linkbar{
+	display:block;
+	margin:10px auto;
+}

@@ -1,0 +1,31 @@
+#album li {
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: silver solid 1px;
+    float: left;
+    position: relative;
+}
+
+#album img {
+    max-height: 100px;
+    max-width: 100px;
+    vertical-align : middle;
+}
+
+#album div {
+    margin: 0 auto;
+    height: 100px;
+    text-align: center;
+/* Firefox, Chrome */
+  line-height : 100px;
+    
+  /* IE */
+  *font-size : 90px;  /* 200px * 0.9 = 180px */
+  *font-family : Arial;
+
+  cursor: pointer;
+}
+
